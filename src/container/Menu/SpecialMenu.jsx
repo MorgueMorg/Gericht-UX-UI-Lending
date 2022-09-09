@@ -4,6 +4,8 @@ import { SubHeading, MenuItem } from "../../components";
 import { data, images } from "../../constants";
 import "./SpecialMenu.css";
 
+// Лучше перезагрузить локал хост для тяги данных
+
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">

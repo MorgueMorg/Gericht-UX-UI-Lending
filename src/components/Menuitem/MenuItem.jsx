@@ -2,6 +2,8 @@ import React from "react";
 
 import "./MenuItem.css";
 
+// Лучше перезагрузить локал хост для тяги данных
+
 const MenuItem = ({ title, price, tags }) => (
   <div className="app__menuitem">
     <div className="app__menuitem-head">
