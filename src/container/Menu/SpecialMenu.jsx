@@ -1,7 +1,11 @@
 import React from "react";
 
-import { SubHeading, MenuItem } from "../../components";
+import {MenuItem } from "../../components";
+import { SubHeading } from "../../components";
+
 import { data, images } from "../../constants";
+import Themu from "../../components/Themu";
+
 import "./SpecialMenu.css";
 
 // Лучше перезагрузить локал хост для тяги данных
@@ -10,12 +14,12 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
-      <h1 className="headtext__cormorant">Today&apos;s Special</h1>
+      <h1 className="headtext__cormorant"><Themu>Today&apos;s Special</Themu></h1>
     </div>
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+        <p className="app__specialMenu-menu_heading"><Themu>Wine & Beer</Themu></p>
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
             <MenuItem
