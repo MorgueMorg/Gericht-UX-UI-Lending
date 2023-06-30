@@ -4,12 +4,12 @@
   --font-base: "Cormorant Upright", serif;
   --font-alt: "Open Sans", sans-serif;
 
-  --color-golden: #87dc8b;
-  --color-black: #642121;
-  --color-gray: #4c1c1c;
-  --color-crimson: #ffc400;
-  --color-grey: #5f0000;
-  --color-white: #f4c4c4;
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
 }
 
 * {
