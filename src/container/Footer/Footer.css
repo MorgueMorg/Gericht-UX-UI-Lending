@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: column;
 
-  background: var(--color-black);
+  background: var(--color-bg);
   padding-top: 0;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .app__footer-links_icons svg:hover {
-  color: var(--color-golden);
+  color: var(--color-text);
 }
 
 .app__footer-headtext {

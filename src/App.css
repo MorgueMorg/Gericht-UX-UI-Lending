@@ -53,8 +53,8 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
-  color: var(--color-black);
+  background-color: var(--color-accent);
+  color: var(--color-bg);
   font-family: var(--font-base);
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -90,7 +90,7 @@
 
 .headtext__cormorant {
   font-family: var(--font-base);
-  color: var(--color-golden);
+  color: var(--color-text);
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;

@@ -1,7 +1,7 @@
 .app__newsletter {
   padding: 2rem 4rem;
-  border: 1px solid var(--color-golden);
-  background: var(--color-black);
+  border: 1px solid var(--color-text);
+  background: var(--color-bg);
 }
 
 .app__newsletter-heading {
@@ -15,7 +15,7 @@
 
 .app__newsletter-input input {
   width: 620px;
-  border: 1px solid var(--color-golden);
+  border: 1px solid var(--color-text);
   border-radius: 5px;
   font-size: 1rem;
   font-family: var(--font-base);
@@ -23,7 +23,7 @@
 
   margin-right: 2rem;
   padding: 0.75rem 1rem;
-  background: var(--color-black);
+  background: var(--color-bg);
 }
 
 .app__newsletter-input button {
