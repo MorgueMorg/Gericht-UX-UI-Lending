@@ -24,11 +24,11 @@ const Footer = () => (
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
         </p>
-        <img
+        {/* <img
           src={images.spoon}
           className="spoon__img"
           style={{ marginTop: 15 }}
-        />
+        /> */}
         <div className="app__footer-links_icons">
           <FiFacebook />
           <FiTwitter />
