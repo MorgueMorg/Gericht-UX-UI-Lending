@@ -1,11 +1,11 @@
-import gallery01 from '../assets/theemu_gallery01.png';
-import gallery02 from '../assets/theemu_gallery02.png';
-import gallery03 from '../assets/theemu_gallery03.png';
-import gallery04 from '../assets/theemu_gallery04.png';
-import knife from '../assets/theemu_knife.png';
-import welcome from '../assets/theemu_welcome.png';
-import menu from '../assets/theemu_menu.png';
-import laurels from '../assets/theemu_laurels.png';
+import gallery01 from '../assets/themu_gallery01.png';
+import gallery02 from '../assets/themu_gallery02.png';
+import gallery03 from '../assets/themu_gallery03.png';
+import gallery04 from '../assets/themu_gallery04.png';
+import knife from '../assets/themu_knife.png';
+import welcome from '../assets/themu_welcome.png';
+import menu from '../assets/themu_menu.png';
+import laurels from '../assets/themu_laurels.png';
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
@@ -20,7 +20,6 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
-
 
 export default {
   bg,
