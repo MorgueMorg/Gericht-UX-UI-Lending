@@ -7,7 +7,7 @@ import welcome from '../assets/themu_welcome.png';
 import menu from '../assets/themu_menu.png';
 import laurels from '../assets/themu_laurels.png';
 import bg from '../assets/bg.png';
-import chef from '../assets/chef.png';
+import chef from '../assets/theemu_chef.png';
 import G from '../assets/G.png';
 import logo from '../assets/logo.png';
 import overlaybg from '../assets/overlaybg.png';
