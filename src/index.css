@@ -3,12 +3,13 @@
 :root {
   --font-base: "Cormorant Upright", serif;
   --font-alt: "Open Sans", sans-serif;
+  
 
   --color-text: #DCCA87;
   --color-accent: #F5EFDB;
+
+
   --color-bg: #0C0C0C;
-
-
   --color-gray: #545454;
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
