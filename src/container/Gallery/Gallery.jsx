@@ -8,6 +8,7 @@ import {
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Gallery.css";
+import Themu from "../../components/Themu";
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -31,8 +32,10 @@ const Gallery = () => {
           className="p__opensans"
           style={{ color: "#AAAAAA", marginTop: "2rem" }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          <Themu>
+            This text is about the photo gallery dolor sit amet, consectetur adipiscing elit. Volutpat
+            mattis ipsum turpis elit elit scelerisque egestas mu.
+          </Themu>
         </p>
         <button type="button" className="custom__button">
           View More
