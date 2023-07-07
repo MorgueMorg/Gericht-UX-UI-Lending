@@ -5,7 +5,12 @@ import "./AboutUs.css";
 import ThemuText from "../../components/ThemuText";
 import ThemuImg from "../../components/ThemuImg";
 
-const AboutUs = () => (
+const AboutUs = () => {
+  const style_json = {
+    width: "auto",
+    height: "300px",
+  };
+  return(
   <div
     className="app__aboutus app__bg flex__center section__padding"
     id="about"
@@ -32,10 +37,7 @@ const AboutUs = () => (
 
       <div className="app__aboutus-content_knife flex__center">
         <ThemuImg
-          style_json={{
-            width: "auto",
-            height: "300px",
-          }}
+          style_json={style_json}
           test = {true}
           src={'assets/themu_knife.png'}
           alt="about_knife"
@@ -58,6 +60,6 @@ const AboutUs = () => (
       </div>
     </div>
   </div>
-);
+)};
 
 export default AboutUs;

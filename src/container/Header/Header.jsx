@@ -24,7 +24,7 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <ThemuImg src={ 'assets/themu_welcome.png' } alt="header_img" desc = ""/>
+      <ThemuImg src='assets/themu_welcome.png' alt="header_img" desc = ""/>
     </div>
   </div>
 );
