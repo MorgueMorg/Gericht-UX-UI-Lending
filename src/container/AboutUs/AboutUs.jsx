@@ -1,8 +1,8 @@
 import React from "react";
 
-import { images } from "../../constants";
+// import { images } from "../../constants";
 import "./AboutUs.css";
-import Themu from "../../components/Themu";
+import ThemuText from "../../components/ThemuText";
 
 const AboutUs = () => (
   <div
@@ -10,7 +10,7 @@ const AboutUs = () => (
     id="about"
   >
     <div className="app__aboutus-overlay flex__center">
-      <img src={images.G} alt="G_overlay" />
+      <img src={'assets/G.png'} alt="G_overlay" />
     </div>
 
     <div className="app__aboutus-content flex__center">
@@ -18,11 +18,11 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p className="p__opensans">
-          <Themu>
+          <ThemuText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
             pharetra adipiscing ultrices vulputate posuere tristique. In sed
             odio nec aliquet eu proin mauris et.
-          </Themu>
+          </ThemuText>
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -35,7 +35,7 @@ const AboutUs = () => (
             width: "auto",
             height: "300px",
           }}
-          src={images.knife}
+          src={'assets/themu_knife.png'}
           alt="about_knife"
         />
       </div>
@@ -44,11 +44,11 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p className="p__opensans">
-          <Themu>
+          <ThemuText>
             Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
             Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
             odio nec aliquet.
-          </Themu>
+          </ThemuText>
         </p>
         <button type="button" className="custom__button">
           Know More

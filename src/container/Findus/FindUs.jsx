@@ -1,15 +1,15 @@
 import React from "react";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
-import Themu from "../../components/Themu";
+// import { images } from "../../constants";
+import ThemuText from "../../components/ThemuText";
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>
-        <Themu>Find Us</Themu>
+        <ThemuText>Find Us</ThemuText>
       </h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">
@@ -34,7 +34,7 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.findus} alt="finus_img" />
+      <img src={'assets/themu_findus.png'} alt="finus_img" />
     </div>
   </div>
 );
