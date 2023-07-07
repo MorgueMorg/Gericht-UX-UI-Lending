@@ -37,8 +37,7 @@ const AboutUs = () => {
 
       <div className="app__aboutus-content_knife flex__center">
         <ThemuImg
-          style_json={style_json}
-          test = {true}
+          style_json='width: auto; height: 300px;'
           src={'assets/themu_knife.png'}
           alt="about_knife"
         />
