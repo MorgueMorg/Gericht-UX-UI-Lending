@@ -34,7 +34,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_img">
-        <ThemuImg src={'assets/themu_menu.png'} alt="menu__img" />
+        {/* <ThemuImg src={'assets/themu_menu.png'} alt="menu__img" /> */}
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
