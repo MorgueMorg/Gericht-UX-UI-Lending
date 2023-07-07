@@ -4,12 +4,13 @@ import { SubHeading } from "../../components";
 // import { images } from "../../constants";
 import "./Chef.css";
 import ThemuText from "../../components/ThemuText";
+import ThemuImg from "../../components/ThemuImg";
 
 
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={'assets/themu_chef.png'} alt="chef_image" />
+      <ThemuImg src={'assets/themu_chef.png'} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
       {/* <SubHeading title="Chef's word" /> */}

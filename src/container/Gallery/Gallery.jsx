@@ -62,19 +62,19 @@ const Gallery = () => {
         </div> */}
         <div className="app__gallery-images_container" ref={scrollRef}>
           <div className="app__gallery-images_card flex__center">
-            <ThemuImg src={"assets/gallery01.png"} alt="gallery_image" />
+            <img src={"assets/gallery01.png"} alt="gallery_image" />
             <BsInstagram className="gallery__image-icon" />
           </div>
           <div className="app__gallery-images_card flex__center">
-            <ThemuImg src={"assets/gallery02.png"} alt="gallery_image" />
+            <img src={"assets/gallery02.png"} alt="gallery_image" />
             <BsInstagram className="gallery__image-icon" />
           </div>
           <div className="app__gallery-images_card flex__center">
-            <ThemuImg src={"assets/gallery03.png"} alt="gallery_image" />
+            <img src={"assets/gallery03.png"} alt="gallery_image" />
             <BsInstagram className="gallery__image-icon" />
           </div>
           <div className="app__gallery-images_card flex__center">
-            <ThemuImg src={"assets/gallery04.png"} alt="gallery_image" />
+            <img src={"assets/gallery04.png"} alt="gallery_image" />
             <BsInstagram className="gallery__image-icon" />
           </div>
         </div>

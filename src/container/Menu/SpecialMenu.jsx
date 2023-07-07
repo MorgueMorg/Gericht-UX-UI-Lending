@@ -5,6 +5,7 @@ import { SubHeading } from "../../components";
 
 import { data, images } from "../../constants";
 import ThemuText from "../../components/ThemuText";
+import ThemuImg from "../../components/ThemuImg";
 
 import "./SpecialMenu.css";
 
@@ -33,7 +34,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_img">
-        <img src={'assets/themu_menu.png'} alt="menu__img" />
+        <ThemuImg src={'assets/themu_menu.png'} alt="menu__img" />
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">

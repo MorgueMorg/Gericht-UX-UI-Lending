@@ -3,6 +3,7 @@ import React from "react";
 // import { images } from "../../constants";
 import "./AboutUs.css";
 import ThemuText from "../../components/ThemuText";
+import ThemuImg from "../../components/ThemuImg";
 
 const AboutUs = () => (
   <div
@@ -30,11 +31,12 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img
-          style={{
+        <ThemuImg
+          style_json={{
             width: "auto",
             height: "300px",
           }}
+          test = {true}
           src={'assets/themu_knife.png'}
           alt="about_knife"
         />

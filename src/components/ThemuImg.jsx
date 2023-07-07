@@ -2,11 +2,11 @@ import React from "react";
 import { images } from "../constants";
 
 
-const Themu = (src, alt, className, desc) => {
+const Themu = ({src, alt, className, style_json, desc, test}) => {
 
-    console.log(src.src)
+    // console.log(test)
 
-  return <img src={src.src} alt={src.alt} className={className} />;
+  return <img src={src} alt={alt} className={className} style ={style_json}/>;
 };
 
 export default Themu;
