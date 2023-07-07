@@ -6,7 +6,7 @@ const Themu = ({src, alt, className, style_json, desc, test}) => {
 
     // console.log(test)
 
-  return <img src={src} alt={alt} className={className} style ={style_json}/>;
+  return <img src={src} alt={alt} className={className} style ={JSON.parse(style_json)}/>;
 };
 
 export default Themu;
