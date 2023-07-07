@@ -3,6 +3,7 @@ import React from "react";
 import { SubHeading } from "../../components";
 // import { images } from "../../constants";
 import ThemuText from "../../components/ThemuText";
+import ThemuImg from "../../components/ThemuImg";
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
@@ -34,7 +35,7 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={'assets/themu_findus.png'} alt="finus_img" />
+      <ThemuImg src={'assets/themu_findus.png'} alt="finus_img" />
     </div>
   </div>
 );

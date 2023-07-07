@@ -4,6 +4,7 @@ import { SubHeading } from "../../components";
 import { images, data } from "../../constants";
 import "./Laurels.css";
 import ThemuText from "../../components/ThemuText";
+import ThemuImg from "../../components/ThemuImg";
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
   <div className="app__laurels_awards-card">
@@ -31,7 +32,7 @@ const Laurels = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={"assets/themu_laurels.png"} alt="laurels_img" />
+      <ThemuImg src={"assets/themu_laurels.png"} alt="laurels_img" />
     </div>
   </div>
 );
