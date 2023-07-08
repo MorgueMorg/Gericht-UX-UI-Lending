@@ -35,7 +35,7 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      {/* <ThemuImg src={'assets/themu_findus.png'} alt="finus_img" /> */}
+      <img src={'assets/themu_findus.png'} alt="finus_img" />
     </div>
   </div>
 );

@@ -32,7 +32,7 @@ const Laurels = () => (
     </div>
 
     <div className="app__wrapper_img">
-      {/* <ThemuImg src={"assets/themu_laurels.png"} alt="laurels_img" /> */}
+      <img src={"assets/themu_laurels.png"} alt="laurels_img" />
     </div>
   </div>
 );
